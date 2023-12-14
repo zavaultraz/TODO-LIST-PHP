@@ -22,17 +22,18 @@ $data = mysqli_fetch_array($sql);
 
 
 <body style="background-color: #FFA33C">
-    <nav class="navbar bg-body-tertiary">
-        <div class="container">
+<nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="image/img/img/brand/logo spirir.png" alt="Bootstrap" width="30" height="24">
+                <img src="image/img/img/brand/logo spirir.png" alt="Logo" width="50" height="36" class="d-inline-block align-text-top">
+                SEMANGAT
             </a>
         </div>
     </nav>
     <form action="update.php" method="post">
         <div class="container">
             <div class="row justify-content-center bg-white m-auto shadow mt-3 py-3 col-md-6">
-                <h2 class="text-center text-warning font-monospace">Todo list</h2>
+                <h2 class="text-center text-warning font-monospace">CHANGES ACTIVITY</h2>
                 <div class="col-8">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control shdow" id="floatingInput" name="list" value="<?php echo $data['List'] ?>" placeholder="CHANGES THIS">
